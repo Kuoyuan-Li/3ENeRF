@@ -1,0 +1,35 @@
+expname = your_example
+basedir = ./logs
+datadir = ./../datasets/your_example_dataset_dir
+dataset_type = nerfies
+section = p2,p3
+
+nerf_type = rignerf
+no_batching = True
+not_zero_canonical = True
+
+use_two_models_for_fine = True
+
+use_viewdirs = True
+white_bkgd = False
+
+lrate = 5e-4
+lrate_decay = 200
+deform_N = 40000
+N_iter = 300000
+N_samples = 128
+N_importance = 128
+N_rand = 1500
+
+i_print= 1000
+i_img = 10000
+i_weights = 40000
+
+
+precrop_iters = 0
+precrop_iters_time = 0
+precrop_frac = 1
+
+half_res = False
+
+downscale = True
