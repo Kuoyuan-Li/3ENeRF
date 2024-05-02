@@ -11,5 +11,10 @@ This repository carries out the work I have done during my year-long research pr
 Please refer to the data_prepare_readme.md in the datasets folder to prepare the dataset. Note: the guidance is expected to be run within the University of Melbourne's Spartan HPC.
 
 ### 2. Train the model
+- 3ENeRF
 The main entry point for training the model is `launch.py` in the instant-nsr-pl folder. The script is designed to be run on the Spartan HPC with Slurm script.
+
+- My implementation of RigNeRF
+The main entry point for training my RigNerf model is `run_dnerf.py` in the rignerf_v3 folder.
+
 
